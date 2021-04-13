@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    background-color: brown;
+    background-image: url("inspiration-geometry.png");
+    color:white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.body-wrapper{
+    display:flex;
+    flex-direction: column;
+    padding:7%;
+}
+
+.header{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+.description{
+    width:100%;
+    font-size: 23px;
+}
+
+.input-header, #preview-content{
+    font-size:20px;
+}
+.input-section{
+    padding:2%;
+    width:100%;
+}
+
+.input-section form input{
+    margin-top:10px;
+    width:80%;
+    height:40px;
+    border-radius: 30px;
+    border:none;
+    outline:none;
+    text-align: center;
+
+}
+.input-section form input:focus{
+    border:2px solid gray;
+
+}
+.input-section form button{
+    margin-top: 10px;
+    width:120px;
+    height:40px;
+    border-radius: 30px;
+    outline:none;
+    border:1px solid #53354a;
+    background-color:gray;
+    transition: background-color 0.1s;
+}
+.input-section form button:hover{
+    background-color: gray;
+    transition: background-color 0.1s;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.info-tiles{
+    height:40px;
+    width:190px;
+    margin:1%;
+    padding:10px;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.info-tiles:nth-child(even){
+    background-color: gray;
+    color:black;
+}
+.info-tiles:nth-child(odd){
+    background-color: white;
+    color:black;
+}
+
